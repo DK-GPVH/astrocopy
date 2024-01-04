@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | FLEXBOX PRACTICE</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap">
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <figure class="nav__logo">
+                <a href="../index.html">
+                <img  src="../recursos/astro-svgrepo-com.svg" class="nav__img">
+                </a>
+            </figure>
+
+            <div class="nav__menu">
+                <ul class="nav__links">
+                <li class="nav__list">
+                    <details class="nav__link">
+                        <summary>Features</summary>
+
+                        <ul class="nav__subvar">
+                            <li class="nav__list subvar__list">
+                                <a href="#" class="nav__link">Action</a>
+                            </li>
+                            <li class="nav__list subvar__list">
+                                <a href="#" class="nav__link">Another Action</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav__link">Dropdown Submenu</a>
+                            </li>
+                            <li class="nav__list subvar__list">
+                                <a href="./404.html" class="nav__link">404 Page</a>
+                            </li>
+                        </ul>
+                    </details>
+                </li>
+
+                <li class="nav__list">
+                    <a href="./princing.html" class="nav__link">Pricing</a>
+                </li>
+
+                <li class="nav__list">
+                    <a href="./about.html" class="nav__link">About</a>
+                </li>
+                <li class="nav__list">
+                    <a href="./blog.html" class="nav__link">Blog</a>
+                </li>
+                <li class="nav__list">
+                    <a href="./contact.html" class="nav__link">Contact</a>
+                </li>
+                </ul>
+
+                <div class="nav__buttons">
+                <a href="#" class="btn">Log in</a>
+                
+                <a href="#" class="btn btn__black">Sign up</a>
+                </div>
+            </div>
+            <label for="menu" class="nav__label">
+            </label>
+
+            <Input type="checkbox" id="menu"></Input>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="body__content">
+            <h3 class="body__title">Contact</h3>
+            <p class="body__paragraph">We are a here to help</p>
+        </section>
+        <section class="cards__contact">
+        <section class="body__content card__contact">
+            <h3 class="about__subtitle">Contact Astroship</h3>
+            <p class="about__paragraph">Have something to say? We are here to help. Fill up the form or send email or call phone.</p>
+            
+            <ul class="cards__list cards__contact__list">
+                <li class="cards__pricing__li">
+                    <figure>
+                        <img src="../recursos/location.svg" class="cards__contact__figure">
+                    </figure> 1734 Sanfrancisco, CA 93063
+                </li>
+                <li class="cards__pricing__li">
+                    <figure>
+                        <img src="../recursos/mail.svg" class="cards__contact__figure">
+                    </figure> hello@astroshipstarter.com
+                </li>
+                <li class="cards__pricing__li">
+                    <figure>
+                        <img src="../recursos/phone.svg" class="cards__contact__figure">
+                    </figure> +1 (987) 4587 899
+                </li>
+            </ul>
+        </section>
+        <section class="body__content card__contact">
+            <form class="contact__form">
+                <input type="text" class="contact__input__text" placeholder="Full Name">
+                <input type="email" class="contact__input__text" placeholder="Email Address">
+                <textarea rows="5" class="contact__input__text"  placeholder="Your Message"></textarea>
+                <a class="btn btn__black btn__contact">Send Message</a>
+            </form>
+        </section>
+    </section>
+    </main>
+
+
+    <footer class="footer">
+        <p class="footer__title">Copyright © 2023 Astroship. All rights reserved.</p>
+    </footer>
+</body>
+</html>
